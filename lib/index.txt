@@ -1,0 +1,1 @@
+Son solo las librerias necesarias para la compilacion de la aplicacion

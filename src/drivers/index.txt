@@ -1,0 +1,8 @@
+Directorio que contiene programas de prueba para los gestores del sistema de encuestas. Cada archivo es un driver interactivo que permite probar manualmente las operaciones de un gestor concreto sin usar la interfaz grafica.
+
+Contiene:
+- TestControladores.java: Programa principal que permite interactuar con el CtrlDominio a traves de menus, registrando usuarios y gestionando encuestas, respuestas y clustering.
+- TestGestorClustering.java: Programa de prueba que inicializa GestorClustering, GestorUsuarios, GestorEncuestas y GestorRespuestas para ejecutar algoritmos de clustering con datos de prueba.
+- TestGestorEncuestas.java: Programa interactivo para probar solo el GestorEncuestas. Permite crear, listar, modificar y eliminar encuestas y gestionar preguntas.
+- TestGestorRespuestas.java: Programa interactivo para probar solo el GestorRespuestas. Incluye la inicializacion de gestores y operaciones para responder preguntas y encuestas completas, asi como listar respuestas y estadisticas.
+- TestGestorUsuarios.java: Programa interactivo para probar solo el GestorUsuarios. Permite crear usuarios respondedores y administradores, listar y buscar usuarios, y mostrar estadisticas.

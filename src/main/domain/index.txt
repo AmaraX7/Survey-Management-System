@@ -1,0 +1,5 @@
+Directorio que contiene el paquete domain del codigo principal. Dentro se encuentran las subcarpetas classes y controller.
+
+Contiene:
+- classes: Paquete con las clases de dominio que representan preguntas, encuestas, usuarios y algoritmos de clustering.
+- controller: Paquete con los controladores que gestionan encuestas, respuestas, usuarios y la interaccion con archivos CSV.

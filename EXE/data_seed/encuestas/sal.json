@@ -1,0 +1,201 @@
+{
+  "id": "sal",
+  "titulo": "Encuesta de Bienestar y Salud",
+  "descripcion": "Evaluación de hábitos saludables y calidad de vida",
+  "preguntas": [
+    {
+      "tipo": "NUMERICA",
+      "data": {
+        "min": 0.0,
+        "max": 6.3,
+        "id": "b7cf9f0d-3e25-4cad-b9ae-4a52a84c2863",
+        "enunciado": "¿Cuántos días a la semana haces ejercicio?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "NUMERICA",
+      "data": {
+        "min": 4.825,
+        "max": 8.675,
+        "id": "9cb4e186-39c7-469f-86ba-3ada557ed87f",
+        "enunciado": "¿Cuántas horas duermes en promedio por noche?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "CATEGORIA_SIMPLE",
+      "data": {
+        "opciones": [
+          "Excelente",
+          "Malo",
+          "Muy malo",
+          "Regular",
+          "Bueno"
+        ],
+        "id": "4207d8b6-a54c-4929-8843-edda49ae6b80",
+        "enunciado": "¿Cómo calificarías tu estado de salud general?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "LIBRE",
+      "data": {
+        "longitudMaxima": 1000,
+        "id": "231b800c-aad0-44dd-b8cf-fa40a86f69e6",
+        "enunciado": "¿Qué tipo de alimentos consumes con mayor frecuencia?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "CATEGORIA_SIMPLE",
+      "data": {
+        "opciones": [
+          "Mucho",
+          "Nada",
+          "Bastante",
+          "Moderado",
+          "Poco"
+        ],
+        "id": "be287b96-39f8-4a8b-a672-5d7669b21102",
+        "enunciado": "¿Cuánto estrés experimentas en tu vida diaria?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "LIBRE",
+      "data": {
+        "longitudMaxima": 1000,
+        "id": "0518d6d9-65d7-41ee-924d-d0d2687abed5",
+        "enunciado": "¿Qué actividad o hábito te gustaría incorporar para mejorar tu salud?",
+        "obligatoria": false
+      }
+    }
+  ],
+  "historialResultados": [
+    {
+      "groups": [
+        1,
+        1,
+        4,
+        4,
+        4,
+        1,
+        1,
+        0,
+        3,
+        2,
+        2,
+        4,
+        0,
+        1,
+        3,
+        2,
+        1,
+        4,
+        2,
+        3,
+        2,
+        4,
+        1,
+        2,
+        0,
+        1,
+        4,
+        4,
+        3,
+        1,
+        1,
+        1,
+        1,
+        3,
+        1
+      ],
+      "centers": [
+        [
+          3.0,
+          6.333333333333333,
+          "Regular",
+          "\"Proteínas magras|Granos integrales|Comida rápida\"",
+          "Moderado",
+          "Caminar más"
+        ],
+        [
+          5.461538461538462,
+          7.769230769230769,
+          "Excelente",
+          "\"Frutas y verduras|Proteínas magras|Granos integrales\"",
+          "Poco",
+          "Mantenerme activo"
+        ],
+        [
+          1.1666666666666667,
+          6.083333333333333,
+          "Regular",
+          "\"Comida rápida|Dulces y postres|Bebidas azucaradas\"",
+          "Bastante",
+          "Crear hábitos saludables"
+        ],
+        [
+          3.8,
+          7.0,
+          "Bueno",
+          "\"Frutas y verduras|Proteínas magras|Granos integrales\"",
+          "Moderado",
+          "Reducir el estrés laboral"
+        ],
+        [
+          0.5,
+          5.25,
+          "Malo",
+          "\"Comida rápida|Dulces y postres|Bebidas azucaradas\"",
+          "Mucho",
+          "Empezar desde cero con buenos hábitos"
+        ]
+      ],
+      "silhouette": 0.5329971030778152,
+      "idsUsuarios": [
+        "SAL018",
+        "SAL017",
+        "SAL019",
+        "SAL032",
+        "SAL010",
+        "SAL031",
+        "SAL034",
+        "SAL012",
+        "SAL033",
+        "SAL011",
+        "SAL014",
+        "SAL035",
+        "SAL013",
+        "SAL016",
+        "SAL015",
+        "SAL030",
+        "SAL029",
+        "SAL007",
+        "SAL028",
+        "SAL006",
+        "SAL009",
+        "SAL008",
+        "SAL021",
+        "SAL020",
+        "SAL023",
+        "SAL001",
+        "SAL022",
+        "SAL025",
+        "SAL003",
+        "SAL024",
+        "SAL002",
+        "SAL027",
+        "SAL005",
+        "SAL026",
+        "SAL004"
+      ],
+      "algoritmo": "KMeans++",
+      "k": 5,
+      "numIteraciones": 3,
+      "inercia": 1.3713909451876134,
+      "idEncuesta": "sal"
+    }
+  ]
+}

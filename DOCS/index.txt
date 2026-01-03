@@ -1,0 +1,11 @@
+Directorio reservado para documentación generada.
+
+1aEntregaPROP.pdf   	- .pdf con la 1a entrega del proyecto
+2aEntregaPROP.pdf   	- .pdf con la 2a entrega del proyecto
+3aEntregaPROP.pdf   	- .pdf con la 3a entrega del proyecto
+CASOS DE USO.png     	- .png con los casos de uso actualizados
+Dominio.png 		- .png con el diagrama de dominio y controladores de dominio
+Presentacion.png 	- .png con el diagrama de vistas y controladores de presentación
+Persistencia.png 	- .png con el diagrama de gestores de datos
+Manual_de_usuario.pdf	- .pdf con el manual del usuario del programa
+Reparto_del_trabajo.pdf	- .pdf con el reparto de clases del proyecto

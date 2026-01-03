@@ -1,0 +1,66 @@
+{
+  "id": "sat",
+  "titulo": "Encuesta de Satisfacción del Cliente",
+  "descripcion": "Evalúa tu experiencia con nuestros servicios",
+  "preguntas": [
+    {
+      "tipo": "CATEGORIA_SIMPLE",
+      "data": {
+        "opciones": [
+          "Neutral",
+          "Satisfecho",
+          "Muy insatisfecho",
+          "Insatisfecho",
+          "Muy satisfecho"
+        ],
+        "id": "a707066d-9e5d-4953-8821-2df2c8c9cb2e",
+        "enunciado": "¿Cómo calificarías tu satisfacción general con nuestro servicio?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "NUMERICA",
+      "data": {
+        "min": 0.55,
+        "max": 10.45,
+        "id": "70636b27-0899-41f5-a82a-3c4af604cd74",
+        "enunciado": "Del 0 al 10, ¿qué probabilidad hay de que recomiendes nuestros servicios? (NPS)",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "LIBRE",
+      "data": {
+        "longitudMaxima": 1000,
+        "id": "9d06bbe0-79db-494f-9e8b-e395210bd9b6",
+        "enunciado": "¿Qué aspectos valoras más de nuestro servicio? (máximo 3)",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "CATEGORIA_SIMPLE",
+      "data": {
+        "opciones": [
+          "6-12 meses",
+          "Más de 2 años",
+          "1-2 años",
+          "Menos de 1 mes",
+          "1-6 meses"
+        ],
+        "id": "bc5c85cc-a68a-4393-8a64-3a867004d8d7",
+        "enunciado": "¿Cuánto tiempo llevas siendo cliente?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "LIBRE",
+      "data": {
+        "longitudMaxima": 1000,
+        "id": "d6b54a99-00ba-46a3-9cdf-fdc7ea611aec",
+        "enunciado": "¿Qué podríamos mejorar?",
+        "obligatoria": false
+      }
+    }
+  ],
+  "historialResultados": []
+}

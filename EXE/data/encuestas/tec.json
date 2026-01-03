@@ -1,0 +1,73 @@
+{
+  "id": "tec",
+  "titulo": "Hábitos Tecnológicos",
+  "descripcion": "Estudio sobre el uso de tecnología en la vida cotidiana",
+  "preguntas": [
+    {
+      "tipo": "CATEGORIA_SIMPLE",
+      "data": {
+        "opciones": [
+          "25-34",
+          "18-24",
+          "55-64",
+          "35-44",
+          "65+",
+          "45-54"
+        ],
+        "id": "d93cbf90-000a-4cba-9509-56813d32e984",
+        "enunciado": "Rango de edad",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "NUMERICA",
+      "data": {
+        "min": 0.25,
+        "max": 16.75,
+        "id": "cda79820-e7e7-472b-9910-a02ab855e929",
+        "enunciado": "¿Cuántas horas al día usas dispositivos electrónicos?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "LIBRE",
+      "data": {
+        "longitudMaxima": 1000,
+        "id": "3a8aa7cc-3b7c-4482-9e06-9437efe47258",
+        "enunciado": "¿Qué dispositivos utilizas regularmente? (selecciona todos los que apliquen)",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "CATEGORIA_SIMPLE",
+      "data": {
+        "opciones": [
+          "Raramente",
+          "Frecuentemente",
+          "Ocasionalmente",
+          "Nunca",
+          "Constantemente"
+        ],
+        "id": "cadde679-952a-4f52-885c-dba237bc6c83",
+        "enunciado": "¿Con qué frecuencia utilizas redes sociales?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "CATEGORIA_SIMPLE",
+      "data": {
+        "opciones": [
+          "No me preocupa",
+          "No realmente",
+          "Sí moderadamente",
+          "Un poco",
+          "Sí muy preocupado"
+        ],
+        "id": "c39e84af-a75a-41dd-b395-6e27d61e0a91",
+        "enunciado": "¿Te preocupa tu privacidad en línea?",
+        "obligatoria": false
+      }
+    }
+  ],
+  "historialResultados": []
+}

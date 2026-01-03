@@ -1,0 +1,5 @@
+Directorio que agrupa el codigo fuente principal. Incluye el paquete domain con las clases de dominio y controladores y la carpeta java.
+
+Contiene:
+- domain: Paquete principal que contiene las clases del dominio y los controladores.
+- java: Carpeta vacia reservada para ampliar con otros paquetes si fuera necesario.

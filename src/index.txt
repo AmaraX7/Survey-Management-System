@@ -1,0 +1,6 @@
+Directorio principal con el codigo fuente del proyecto.
+
+Contenido:
+- drivers: Carpeta que contiene el programa de consola (driver) para interactuar con los controladores y realizar pruebas manuales.
+- main: Carpeta que contiene el codigo fuente principal, dividido en subdirectorios domain y java.
+- test: Carpeta con las clases de pruebas unitarias del proyecto.

@@ -1,0 +1,6 @@
+main.domain.classes
+main.domain.controllers
+main.persistence
+main.presentation
+main.presentation.controllers
+main.presentation.views

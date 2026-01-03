@@ -1,0 +1,11 @@
+Directorio raiz del proyecto. Este directorio contiene el codigo fuente, los ejecutables compilados, las dependencias y los archivos de construccion.
+
+Contiene:
+- DOCS: Carpeta reservada para la documentacion generada.
+- EXE: Directorio de salida que se genera al compilar el proyecto. Almacena los archivos .class resultantes de compilar el codigo fuente, los controladores, el ejecutable principal y los juegos de prueba.
+- lib: Directorio con las bibliotecas externas necesarias para ejecutar los tests (JUnit).
+- src: Carpeta principal con el codigo fuente. Incluye controladores, clases de dominio, tests, drivers...
+- Makefile: Makefile de construccion que compila el codigo, ejecuta los tests y limpia los ficheros generados.
+- run.sh: Script para compilar y ejecutar el programa directamente (es posible que haya que ejecutar chmod +x run.sh)
+- dockerfile: Por si falla alguna de las compilaciones dadas es otra opción para ejecutar el programa
+- README.md: Documento que explica las tareas disponibles en el Makefile y resume los tests.

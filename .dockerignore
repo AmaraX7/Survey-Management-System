@@ -1,0 +1,29 @@
+# Ignorar directorios de datos y documentación
+data/
+DOCS/
+EXE/
+
+# Ignorar archivos de Git
+.git/
+.gitignore
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+*.iml
+
+# Ignorar archivos compilados locales
+bin/
+build/
+target/
+out/
+*.class
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración local
+*.log
+*.tmp
+*.swp

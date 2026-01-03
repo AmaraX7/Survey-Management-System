@@ -1,0 +1,17 @@
+[
+  {
+    "id": "admin",
+    "nombre": "Amara Administrator",
+    "password": "admin"
+  },
+  {
+    "id": "admin2",
+    "nombre": "Carlos Admin",
+    "password": "admin123"
+  },
+  {
+    "id": "supervisor",
+    "nombre": "Maria Supervisor",
+    "password": "super"
+  }
+]

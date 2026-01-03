@@ -1,0 +1,23 @@
+Directorio con las clases de dominio en formato Java. Cada archivo define una entidad o algoritmo del sistema.
+
+Contiene:
+- AlgoritmoClustering.java: Interfaz que define los metodos que debe implementar cualquier algoritmo de clustering.
+- CategoriaMultiple.java: Implementacion de una pregunta de categoria multiple que permite seleccionar varias opciones hasta un numero maximo.
+- CategoriaSimple.java: Implementacion de una pregunta de categoria simple (una sola opcion).
+- Clustering.java: Clase que actua como contexto de ejecucion para algoritmos de clustering, permitiendo configurar la estrategia y delegar la ejecucion.
+- Encuesta.java: Clase que representa una encuesta con identificador, titulo, descripcion y una lista de preguntas.
+- EscritorCSV.java: Clase utilitaria que se encarga de escribir las encuestas y sus respuestas a archivos CSV.
+- KMeans.java: Implementacion del algoritmo de clustering K-Means.
+- KMeansPlusPlus.java: Implementacion del algoritmo K-Means++ con inicializacion mejorada.
+- KMedoids.java: Implementacion del algoritmo de clustering K-Medoids.
+- LectorCSV.java: Clase utilitaria que lee archivos CSV y los parsea en estructuras de datos.
+- Libre.java: Implementacion de una pregunta de respuesta libre (texto abierto).
+- Numerica.java: Implementacion de una pregunta numerica con rango minimo y maximo permitidos.
+- Ordinal.java: Implementacion de una pregunta ordinal con un conjunto ordenado de opciones validas.
+- Pregunta.java: Clase abstracta que define el comportamiento comun de todas las preguntas (enunciado, obligatoriedad y validacion).
+- Respuesta.java: Clase que almacena la respuesta de un usuario a una pregunta de una encuesta.
+- ResultadoClustering.java: Clase que encapsula los resultados de un algoritmo de clustering (grupos, centros, silhouette y metadatos).
+- TipoPregunta.java: Enumeracion que define los tipos de pregunta disponibles en el sistema.
+- Usuario.java: Clase abstracta base para los diferentes tipos de usuarios.
+- UsuarioAdmin.java: Implementacion del tipo de usuario administrador que puede crear y gestionar encuestas.
+- UsuarioRespondedor.java: Implementacion del tipo de usuario respondedor que puede contestar a las encuestas.

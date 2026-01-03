@@ -1,0 +1,11 @@
+Directorio reservado para todo lo relacionado con los ejecutables, aquí se guardaran todos los .class y .jar necesarios para la compilacion y ejecucion de nuestro programa
+
+Inicialmente, solo estaran las carpetas data y data_seed:
+data_seed	- Carpeta que contiene los juegos de prueba iniciales
+data		- Inicialmente es una copia exacta de 'data_seed' para preservar estos datos iniciales, pero se va actualizando a 		medida que el usuario añade nuevos datos 
+
+Despues de compilar todo:
+drivers		- Carpeta con los .class de los drivers
+main 		- Carpeta con los .class de los codigos principales
+test		- Carpeta con los .class de los tests
+aplicación.jar 	- .jar que ejecuta la aplicacion

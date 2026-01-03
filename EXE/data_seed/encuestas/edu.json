@@ -1,0 +1,66 @@
+{
+  "id": "edu",
+  "titulo": "Encuesta sobre Educación Online",
+  "descripcion": "Importado desde archivo CSV",
+  "preguntas": [
+    {
+      "tipo": "CATEGORIA_SIMPLE",
+      "data": {
+        "opciones": [
+          "Postgrado",
+          "Estudiante universitario",
+          "Docente",
+          "Profesional trabajando",
+          "Estudiante de secundaria"
+        ],
+        "id": "8f67a73d-f59e-4564-9aa9-e5f095cf74dc",
+        "enunciado": "¿Cuál es tu situación académica/profesional actual?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "NUMERICA",
+      "data": {
+        "min": 0.1499999999999999,
+        "max": 18.85,
+        "id": "61c8a2f8-368c-4517-9808-a4a57d5648fc",
+        "enunciado": "¿Cuántos cursos online has completado en el último año?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "CATEGORIA_SIMPLE",
+      "data": {
+        "opciones": [
+          "Muy en desacuerdo",
+          "Neutral",
+          "De acuerdo",
+          "Muy de acuerdo",
+          "En desacuerdo"
+        ],
+        "id": "3f5737ff-ac95-4af4-9dbe-34ac42cef196",
+        "enunciado": "La educación online es tan efectiva como la presencial",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "LIBRE",
+      "data": {
+        "longitudMaxima": 1000,
+        "id": "9cf95fdd-fbcc-47a2-ba8d-dcf8ad856289",
+        "enunciado": "¿Cuáles son las principales ventajas de la educación online para ti?",
+        "obligatoria": false
+      }
+    },
+    {
+      "tipo": "LIBRE",
+      "data": {
+        "longitudMaxima": 1000,
+        "id": "6adae565-d3f0-4741-8d6e-fe74d627d45d",
+        "enunciado": "¿Cuáles son los principales desafíos de la educación online?",
+        "obligatoria": false
+      }
+    }
+  ],
+  "historialResultados": []
+}

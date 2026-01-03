@@ -1,0 +1,9 @@
+Directorio con los controladores de dominio en formato Java. Estas clases coordinan las operaciones entre gestores y facilitan la importacion y exportacion de datos.
+
+Contiene:
+- CtrlCSV.java: Controlador que permite importar y exportar encuestas y respuestas utilizando archivos CSV.
+- CtrlDominio.java: Controlador principal del dominio que integra los gestores de usuarios, encuestas, respuestas y clustering. Sirve de punto de entrada para la capa de presentacion.
+- GestorClustering.java: Clase gestora que prepara los datos y ejecuta los algoritmos de clustering sobre las respuestas de las encuestas.
+- GestorEncuestas.java: Gestor encargado de crear, modificar, listar y eliminar encuestas, asi como gestionar sus preguntas.
+- GestorRespuestas.java: Gestor que valida y registra las respuestas de los usuarios a preguntas o encuestas completas.
+- GestorUsuarios.java: Gestor que maneja la creacion, obtencion y listado de usuarios respondedores y administradores.

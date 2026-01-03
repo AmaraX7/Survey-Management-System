@@ -1,0 +1,18 @@
+Directorio que contiene los tests unitarios del proyecto, implementados con JUnit. Cada archivo verifica el correcto funcionamiento de una clase o conjunto de funcionalidades.
+
+Elementos contenidos:
+
+- CategoriaMultipleTest.java: Pruebas unitarias para la clase CategoriaMultiple, verificando la creacion y validacion de respuestas de preguntas de opcion multiple.
+- CategoriaSimpleTest.java: Pruebas unitarias para CategoriaSimple, comprobando las operaciones sobre preguntas de una sola opcion.
+- ClusteringTest.java: Pruebas unitarias para la clase Clustering, asegurando que delega correctamente en la estrategia y maneja las configuraciones.
+- EncuestaTest.java: Pruebas unitarias para la clase Encuesta y algunas clases auxiliares, probando la gestion de preguntas y la integridad de encuestas.
+- LibreTest.java: Pruebas unitarias para la clase de pregunta Libre.
+- NumericaTest.java: Pruebas unitarias para la clase Numerica, enfocadas en los rangos y validaciones.
+- OrdinalTest.java: Pruebas unitarias para la clase Ordinal, verificando la gestion de opciones ordenadas.
+- RespuestaTest.java: Pruebas unitarias para la clase Respuesta.
+- ResultadoClusteringTest.java: Pruebas unitarias para la clase ResultadoClustering, comprobando la agrupacion y metodos asociados.
+- TestKMeans.java: Pruebas unitarias para la implementacion del algoritmo K-Means.
+- TestKMeansPlusPlus.java: Pruebas unitarias para la implementacion K-Means++.
+- TestKMedoids.java: Pruebas unitarias para la implementacion del algoritmo K-Medoids.
+- UsuarioAdminTest.java: Pruebas unitarias para la clase UsuarioAdmin.
+- UsuarioRespondedorTest.java: Pruebas unitarias para la clase UsuarioRespondedor.
